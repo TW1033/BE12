@@ -37,6 +37,7 @@ class Deck {
             int r = (int)(Math.random() * CARD_NUM);
 
             System.out.println("박태원은 여러분이 성공하시기를 정말로 원해요");
+            System.out.println("master에서 3번째 커밋을 할거에요");
             Card temp = cardArr[i];
             cardArr[i] = cardArr[r];
             cardArr[r] = temp;
